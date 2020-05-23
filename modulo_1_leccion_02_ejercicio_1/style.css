@@ -1,0 +1,92 @@
+header {
+   color: black
+   font-family Arial;
+   font-size: 22px;
+   text-align: center;
+}
+body {
+   background-color: #caffed;
+}
+p {
+   color: black;
+   font-family: Arial;
+   font-size: 20px;
+   text-align: justify;
+}
+h2, h3, h4, h5 {
+   color: black;
+   font-family: Arial;
+   font-size: 22px;
+}
+.editorial {
+   background: rgba(105, 214, 100, 0.5);
+   padding: 12px;
+   color: black;
+   font-family: Arial;
+   font-size: 12px;
+}
+      .editorial:before {
+         content: 'Nota: ';
+      }
+table {
+    color: black;
+    font-family: Arial;
+    font-size: 18px;
+    width: 60%;
+    border: 4mm ridge rgba(11, 179, 142, 0.6);
+}
+th, td {
+   width: 15%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+}
+ul {
+   color: black;
+   font-family: Arial;
+   font-size: 20px;
+}
+.text-link {
+	color: rgb(55, 88, 233);
+}
+      .text-link:hover {
+         background: red;
+         color: rgb(255, 255, 255);
+}
+.button {
+   background: grey;
+   border-radius: 20px;
+   color: white;
+   display: inline-block;
+   margin-bottom: 1em;
+   padding: 10px 20px;
+   text-decoration: none;
+ }
+ .button--bad{
+   background: red;
+ }
+      .button--bad:hover{
+         background: white;
+         color: black
+      }
+ .button--regular {
+   background: rgb(0, 162, 255);
+ }
+      .button--regular:hover{
+         background: white;
+         color: black
+      }
+ .button--good {
+   background: yellow;
+ }
+      .button--good:hover{
+         background: white;
+         color: black
+      }
+ .button--super {
+   background: rgb(39, 230, 39);
+ }
+      .button--super:hover{
+         background: white;
+         color: black
+      }

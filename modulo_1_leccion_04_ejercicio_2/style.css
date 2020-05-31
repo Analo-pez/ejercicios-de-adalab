@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(208, 226, 103);
+}
+div {
+  color: #040;
+  font-style: italic;
+  border: 2px solid #000;
+}
+.container {
+  width: 1100px;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7,
+.img8,
+.img9,
+.img10 {
+  width: 200px;
+  height: 100px;
+  box-sizing: border-box;
+  border: 5px solid grey;
+}

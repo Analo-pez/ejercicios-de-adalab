@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-align: justify;
+  background-color: cornsilk;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.cabecera {
+  border: 3px solid black;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.preguntasFrecuentes {
+  border: 3px solid red;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+}
+.pieDePagina {
+  border: 3px solid green;
+}

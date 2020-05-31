@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  text-align: justify;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: 100%;
+  max-width: 960px;
+  margin: 0;
+  text-align: center;
+}
+.cabecera {
+  background-color: khaki;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-around;
+}
+.aside1 {
+  background-color: blue;
+  width: 30%;
+}
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.bloqueCentral {
+  background-color: red;
+  width: 100%;
+  height: 100%;
+}
+.aside2 {
+  background-color: yellow;
+  width: 30%;
+}
+.pieDePagina {
+  background-color: green;
+}
